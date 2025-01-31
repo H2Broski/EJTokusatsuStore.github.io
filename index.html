@@ -1,0 +1,142 @@
+<html>
+<head>
+	<title> Everything Tokusatsu Store! </title>
+ <link rel="icon" type="image/png" href="LOGO3_.png">
+ <link rel="stylesheet" href="style.css">
+ <script src="script.js"> </script>  
+</head>
+<body>
+
+	 <header>
+        <h1>Ej's Everything Tokusatsu Store! </h1>
+        <p> <i> Where your geeky imagination come to life!</i> </p>
+	 </header>
+
+    <nav>
+        <a href="#about"> About </a>
+        <a href="#contact"> Contact </a>
+        <a href="#products"> Products </a>
+    </nav>
+
+	<section id="about">
+		<h2> About Me (or us if ever)</h2>
+		<p> Welcome to my humble lil' store!</p>
+		<p> I am currently a student in Naga College Foundation, taking Bachelor of Science in Information Technology. I made this website as a project in Intro To Computing, and I also might use this website in the future :p</p>
+		<p> I LOVE everything about tokusatsus and if you love it too, you've come to the right place!</p>
+        <h3> History</h3>
+        <p>You're probably wondering, what is tokusatsu exactly? it's a Japanese term for live-action films or television programs that make heavy use of practical special effects. 
+			<p> I was very profound of tokusatsus even when I was a kid and when I grew up it sparked again, even the hobby is expensive, I kept going because I am passionate, do what you love as they say. </p>
+			<p> Founded in 2024, I specialize in offering quality merchandise with great customer feedbacks. </p>
+	</section>	
+
+	<section id="contact">
+        <h2>Contact</h2>
+        <p><strong>ID No:</strong> 24-02569</p>
+        <p><strong>First Name:</strong> Elmer Jovit</p>
+        <p><strong>Last Name:</strong> Mailom</p>
+        <p><strong>Email:</strong> ejmailom@gbox.ncf.edu.ph</p>
+    </section>
+
+	<section id="products">
+		<h2>My Products</h2>
+		<table>
+			<tr>
+				<th>Photo</th>
+				<th>Item</th>
+				<th>Basic</th>
+				<th>Collector</th>
+				<th>Qty</th>
+				<th>Total</th>
+				<th>Action</th>
+			</tr>
+
+			<tr>
+				<td><img src="beltresized.jpg" alt="Decade Belt"></td>
+				<td>Kamen Rider Decade Belt</td>
+				<td>₱3700</td>
+				<td>₱6730</td>
+				<td>
+					<input type="number" class="quantity" data-basic="3700" data-collector="6730" value="0" min="0">
+				</td>
+				<td class="itemTotal">₱0.00</td>
+				<td>
+					<button class="addBasic">Add Basic</button>
+					<button class="addCollector">Add Collector</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td><img src="gokaigerresized.jpg" alt="Mobirates"></td>
+				<td>Kaizoku Sentai Gokaiger's Mobirates (Morpher)</td>
+				<td>₱1920</td>
+				<td>₱10215</td>
+				<td>
+					<input type="number" class="quantity" data-basic="1920" data-collector="10215" value="0" min="0">
+				</td>
+				<td class="itemTotal">₱0.00</td>
+				<td>
+					<button class="addBasic">Add Basic</button>
+					<button class="addCollector">Add Collector</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td><img src="gokaicellular2.webp" alt="Gokai Cellular"></td>
+				<td>GokaiSilver's GokaiCellular (Morpher)</td>
+				<td>₱1920</td>
+				<td>₱9900</td>
+				<td>
+					<input type="number" class="quantity" data-basic="1920" data-collector="9900" value="0" min="0">
+				</td>
+				<td class="itemTotal">₱0.00</td>
+				<td>
+					<button class="addBasic">Add Basic</button>
+					<button class="addCollector">Add Collector</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td><img src="gojira2resized.jpg" alt="Godzilla Plushie"></td>
+				<td>Godzilla Plushie</td>
+				<td>₱800</td>
+				<td>₱1600</td>
+				<td>
+					<input type="number" class="quantity" data-basic="800" data-collector="1600" value="0" min="0">
+				</td>
+				<td class="itemTotal">₱0.00</td>
+				<td>
+					<button class="addBasic">Add Basic</button>
+					<button class="addCollector">Add Collector</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td><img src="godzilla4.webp" alt="Shin Godzilla Blu-Ray"></td>
+				<td>Shin Godzilla DVD / Blu-Ray Release</td>
+				<td>₱380</td>
+				<td>₱6500</td>
+				<td>
+					<input type="number" class="quantity" data-basic="380" data-collector="6500" value="0" min="0">
+				</td>
+				<td class="itemTotal">₱0.00</td>
+				<td>
+					<button class="addBasic">Add Basic</button>
+					<button class="addCollector">Add Collector</button>
+				</td>
+			</tr>
+		</table>
+		
+		<p>Grand Total: <span id="grandTotal">₱0.00</span></p>
+		<p>Cash Rendered: <input type="number" id="cashInput" value="0" min="0"></p>
+		<p>Change: <span id="change">₱0.00</span></p>
+		<button id="checkoutButton">Checkout</button>
+	</section>
+	
+
+	<footer> 
+		<p>&copy; Ej's Everything Tokusatsu Store est. 2024.</p>
+		<p> Made with Love by EJ <3 </p>
+	</footer>
+	
+</body>
+</html>
